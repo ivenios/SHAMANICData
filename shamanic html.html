@@ -82,7 +82,10 @@
 
 #carousel-1:checked ~ .control-1,
 #carousel-2:checked ~ .control-2,
-#carousel-3:checked ~ .control-3 {
+#carousel-3:checked ~ .control-3,
+#carousel-4:checked ~ .control-4,
+#carousel-5:checked ~ .control-5,
+#carousel-6:checked ~ .control-6 {
     display: block;
 }
 
@@ -116,7 +119,10 @@
 
 #carousel-1:checked ~ .control-1 ~ .carousel-indicators li:nth-child(1) .carousel-bullet,
 #carousel-2:checked ~ .control-2 ~ .carousel-indicators li:nth-child(2) .carousel-bullet,
-#carousel-3:checked ~ .control-3 ~ .carousel-indicators li:nth-child(3) .carousel-bullet {
+#carousel-3:checked ~ .control-3 ~ .carousel-indicators li:nth-child(3) .carousel-bullet,
+#carousel-4:checked ~ .control-4 ~ .carousel-indicators li:nth-child(4) .carousel-bullet,
+#carousel-5:checked ~ .control-5 ~ .carousel-indicators li:nth-child(5) .carousel-bullet,
+#carousel-6:checked ~ .control-6 ~ .carousel-indicators li:nth-child(6) .carousel-bullet {
     color: #428bca;
 }
 
@@ -184,24 +190,53 @@
     <!--Beginn des SHAMANIC Lovers Karusells-->
     <div class="carousel">
             <div class="carousel-inner">
+                <!--Bild 1-->
                 <input class="carousel-open" type="radio" id="carousel-1" name="carousel" aria-hidden="true" hidden="" checked="checked">
                 <div class="carousel-item">
-                    <img src="https://raw.githubusercontent.com/ivenios/SHAMANICData/master/Zeichenfläche%201.png">
+                    <img src="https://github.com/ivenios/SHAMANICData/blob/master/Blau.png?raw=true">
                 </div> 
+                <!--Bild 2-->
                 <input class="carousel-open" type="radio" id="carousel-2" name="carousel" aria-hidden="true" hidden="">
                 <div class="carousel-item">
-                    <img src="https://raw.githubusercontent.com/ivenios/SHAMANICData/master/Zeichenfläche%202.png">
+                    <img src="https://github.com/ivenios/SHAMANICData/blob/master/Grün.png?raw=true">
                 </div>
+                <!--Bild 3-->
                 <input class="carousel-open" type="radio" id="carousel-3" name="carousel" aria-hidden="true" hidden="">
                 <div class="carousel-item">
-                    <img src="https://raw.githubusercontent.com/ivenios/SHAMANICData/master/Zeichenfläche%202.png">
+                    <img src="https://github.com/ivenios/SHAMANICData/blob/master/Rot.png?raw=true">
                 </div>
-                <label for="carousel-3" class="carousel-control prev control-1">></label>
-                <label for="carousel-2" class="carousel-control next control-1"><</label>
-                <label for="carousel-1" class="carousel-control prev control-2">></label>
-                <label for="carousel-3" class="carousel-control next control-2"><</label>
-                <label for="carousel-2" class="carousel-control prev control-3">></label>
-                <label for="carousel-1" class="carousel-control next control-3"><</label>
+                <!--Bild 4-->
+                <input class="carousel-open" type="radio" id="carousel-4" name="carousel" aria-hidden="true" hidden="">
+                <div class="carousel-item">
+                    <img src="https://github.com/ivenios/SHAMANICData/blob/master/Gelb.png?raw=true">
+                </div>
+                <!--Bild 5-->
+                <input class="carousel-open" type="radio" id="carousel-5" name="carousel" aria-hidden="true" hidden="">
+                <div class="carousel-item">
+                    <img src="https://github.com/ivenios/SHAMANICData/blob/master/Rosa.png?raw=true">
+                </div>
+                <!--Bild 6-->
+                <input class="carousel-open" type="radio" id="carousel-6" name="carousel" aria-hidden="true" hidden="">
+                <div class="carousel-item">
+                    <img src="https://github.com/ivenios/SHAMANICData/blob/master/Türkis.png?raw=true">
+                </div>
+                <!--Bild 7-->
+
+
+<!--Buttons-->
+                <label for="carousel-6" class="carousel-control next control-5">⭆</label>
+                <label for="carousel-5" class="carousel-control prev control-6">⭅</label>
+                <label for="carousel-4" class="carousel-control next control-3">⭆</label>
+                <label for="carousel-3" class="carousel-control prev control-4">⭅</label>
+                <label for="carousel-2" class="carousel-control next control-1">⭆</label>
+                <label for="carousel-1" class="carousel-control prev control-2">⭅</label>
+                <label for="carousel-6" class="carousel-control prev control-1">⭆</label>
+                <label for="carousel-5" class="carousel-control next control-4">⭅</label>
+                <label for="carousel-4" class="carousel-control prev control-5">⭆</label>
+                <label for="carousel-3" class="carousel-control next control-2">⭅</label>
+                <label for="carousel-2" class="carousel-control prev control-3">⭆</label>
+                <label for="carousel-1" class="carousel-control next control-6">⭅</label>
+
                 <ol class="carousel-indicators">
                     <li>
                         <label for="carousel-1" class="carousel-bullet">.</label>
@@ -212,6 +247,16 @@
                     <li>
                         <label for="carousel-3" class="carousel-bullet">.</label>
                     </li>
+                    <li>
+                        <label for="carousel-4" class="carousel-bullet">.</label>
+                    </li>
+                    <li>
+                        <label for="carousel-5" class="carousel-bullet">.</label>
+                    </li>
+                    <li>
+                        <label for="carousel-6" class="carousel-bullet">.</label>
+                    </li>
+
                 </ol>
             </div>
         </div>
