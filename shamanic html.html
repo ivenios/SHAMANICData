@@ -12,7 +12,10 @@
 <body>
     
     <style>
-
+        html, body {
+    margin: 0px;
+    padding: 0px;
+}
 
 .carousel {
     position: relative;
@@ -23,7 +26,7 @@
 .carousel-inner {
     position: relative;
     overflow: hidden;
-    width: 80%;
+    width: 100%;
 }
 
 .carousel-open:checked + .carousel-item {
@@ -183,15 +186,15 @@
             <div class="carousel-inner">
                 <input class="carousel-open" type="radio" id="carousel-1" name="carousel" aria-hidden="true" hidden="" checked="checked">
                 <div class="carousel-item">
-                    <img src="http://fakeimg.pl/2000x800/0079D8/fff/?text=Without">
+                    <img src="{{media url="wysiwyg/Zeichenfläche 1.png"}}">
                 </div>
                 <input class="carousel-open" type="radio" id="carousel-2" name="carousel" aria-hidden="true" hidden="">
                 <div class="carousel-item">
-                    <img src="http://fakeimg.pl/2000x800/DA5930/fff/?text=JavaScript">
+                    <img src="{{media url="wysiwyg/Zeichenfläche 2.png"}}">
                 </div>
                 <input class="carousel-open" type="radio" id="carousel-3" name="carousel" aria-hidden="true" hidden="">
                 <div class="carousel-item">
-                    <img src="http://fakeimg.pl/2000x800/F90/fff/?text=Carousel">
+                    <img src="{{media url="wysiwyg/Zeichenfläche 3.png"}}">
                 </div>
                 <label for="carousel-3" class="carousel-control prev control-1">></label>
                 <label for="carousel-2" class="carousel-control next control-1"><</label>
@@ -244,17 +247,7 @@
             -->
         </style>
     </div>
-    <script type="text/javascript" xml="space">// <![CDATA[
-        var Tawk_API = Tawk_API || {}, Tawk_LoadStart = new Date();
-        (function () {
-            var s1 = document.createElement("script"), s0 = document.getElementsByTagName("script")[0];
-            s1.async = true;
-            s1.src = 'https://embed.tawk.to/5b466e9c6d961556373da26e/default';
-            s1.charset = 'UTF-8';
-            s1.setAttribute('crossorigin', '*');
-            s0.parentNode.insertBefore(s1, s0);
-        })();
-    // ]]></script>
+    
 </body>
 
 </html>
