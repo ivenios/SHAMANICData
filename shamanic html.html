@@ -79,7 +79,7 @@
     background: rgba(0, 0, 0, 0.8);
     color: #aaaaaa;
 }
-
+/*Wichtig für die Klick Funktion, die Rechts und Links oder oben und unten am Bildrand angebracht werden können. Jenachdem welches Bild angezeigt wird, wird das jeweilige Bild gewechselt und die Click Funktion übergeben.  */
 #carousel-1:checked ~ .control-1,
 #carousel-2:checked ~ .control-2,
 #carousel-3:checked ~ .control-3,
@@ -117,6 +117,7 @@
     color: #aaaaaa;
 }
 
+/* Wechselt den Indikator und die Farbe des Indikators für die Position im Karusell  */
 #carousel-1:checked ~ .control-1 ~ .carousel-indicators li:nth-child(1) .carousel-bullet,
 #carousel-2:checked ~ .control-2 ~ .carousel-indicators li:nth-child(2) .carousel-bullet,
 #carousel-3:checked ~ .control-3 ~ .carousel-indicators li:nth-child(3) .carousel-bullet,
@@ -224,19 +225,21 @@
 
 
 <!--Buttons-->
-                <label for="carousel-6" class="carousel-control next control-5">⭆</label>
-                <label for="carousel-5" class="carousel-control prev control-6">⭅</label>
-                <label for="carousel-4" class="carousel-control next control-3">⭆</label>
-                <label for="carousel-3" class="carousel-control prev control-4">⭅</label>
-                <label for="carousel-2" class="carousel-control next control-1">⭆</label>
-                <label for="carousel-1" class="carousel-control prev control-2">⭅</label>
-                <label for="carousel-6" class="carousel-control prev control-1">⭆</label>
-                <label for="carousel-5" class="carousel-control next control-4">⭅</label>
-                <label for="carousel-4" class="carousel-control prev control-5">⭆</label>
-                <label for="carousel-3" class="carousel-control next control-2">⭅</label>
-                <label for="carousel-2" class="carousel-control prev control-3">⭆</label>
-                <label for="carousel-1" class="carousel-control next control-6">⭅</label>
+<!--Die Reihenfolge der Labls gibt die Klickreihenfolge der Bilder an. Die Labls müssen immer in einer Rückzählenden Reihenfolge zwei mal hinterinander angeordnet werden. -->
+                <label for="carousel-6" class="carousel-control next control-5"></label>
+                <label for="carousel-5" class="carousel-control prev control-6"></label>
+                <label for="carousel-4" class="carousel-control next control-3"></label>
+                <label for="carousel-3" class="carousel-control prev control-4"></label>
+                <label for="carousel-2" class="carousel-control next control-1"></label>
+                <label for="carousel-1" class="carousel-control prev control-2"></label>
+                <label for="carousel-6" class="carousel-control prev control-1"></label>
+                <label for="carousel-5" class="carousel-control next control-4"></label>
+                <label for="carousel-4" class="carousel-control prev control-5"></label>
+                <label for="carousel-3" class="carousel-control next control-2"></label>
+                <label for="carousel-2" class="carousel-control prev control-3"></label>
+                <label for="carousel-1" class="carousel-control next control-6"></label>
 
+                <!--Indikatoren für die Position in dem Karusell, hier kann das Design geändert werden, wenn nötig -->
                 <ol class="carousel-indicators">
                     <li>
                         <label for="carousel-1" class="carousel-bullet">.</label>
@@ -267,6 +270,7 @@
     <div class="bottom-border"></div>
     <div class="bottom-border">
         <style xml="space">
+            
             < !-- Instagrma< !-- .video-block-wrapper p {
                 line-height: 22px;
             }
