@@ -2,10 +2,11 @@
   .item-1, 
   .item-2, 
   .item-3 {
-    position:relative;
+      display: block;
+        position:absolute;
       top: 2em;
     
-    width: 60%;
+     width: 60%;
     
     font-size: 2em;
   
