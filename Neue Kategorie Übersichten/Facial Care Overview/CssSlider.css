@@ -1,19 +1,18 @@
   .slider{
     position: absolute;
+    display: inline;
   }
 
   .item-1, 
   .item-2, 
   .item-3 {
-      display: block;
         position:relative;
-      top: 10em;
     
      width: 60%;
     
     font-size: 2em;
   
-      animation-duration: 20s;
+      animation-duration: 40s;
       animation-timing-function: ease-in-out;
       animation-iteration-count: infinite;
   }
