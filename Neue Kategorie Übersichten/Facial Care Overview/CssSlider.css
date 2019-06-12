@@ -1,10 +1,13 @@
-  
+  .slider{
+    position: relative;
+  }
+
   .item-1, 
   .item-2, 
   .item-3 {
       display: block;
         position:absolute;
-      top: 165em;
+      top: ;
     
      width: 60%;
     
