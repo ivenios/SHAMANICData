@@ -2,6 +2,7 @@
   .item-1, 
   .item-2, 
   .item-3 {
+    position:relative;
       top: 2em;
     
     width: 60%;
