@@ -1,5 +1,5 @@
 .handlerstimmen {
-  overflow:hidden;
+  overflow:-moz-hidden-unscrollable;
   max-height:200px;
   position:absolute;
   
@@ -10,12 +10,13 @@
 .item-3 {
   position:relative;
   display: block;
+  overflow:hidden;
   
-  width: 60%;
+  width: 80%;
   
   font-size: 2em;
 
-	animation-duration: 45s;
+	animation-duration: 25s;
 	animation-timing-function: ease-in-out;
 	animation-iteration-count: infinite;
 }
@@ -33,20 +34,20 @@
 }
 
 @keyframes anim-1 {
-	0%, 8.3% { left: -100%; opacity: 0; }
-  8.3%,25% { left: 25%; opacity: 1; }
-  33.33%, 100% { left: 110%; opacity: 0; }
+	0%, 8.3% {opacity: 0; }
+  8.3%,25% { opacity: 1; }
+  33.33%, 100% {opacity: 0; }
 }
 
 @keyframes anim-2 {
-	0%, 33.33% { left: -100%; opacity: 0; }
-  41.63%, 58.29% { left: 25%; opacity: 1; }
-  66.66%, 100% { left: 110%; opacity: 0; }
+	0%, 33.33% {opacity: 0; }
+  41.63%, 58.29% {opacity: 1; }
+  66.66%, 100% {opacity: 0; }
 }
 
 @keyframes anim-3 {
-	0%, 66.66% { left: -100%; opacity: 0; }
-  74.96%, 91.62% { left: 25%; opacity: 1; }
-  100% { left: 110%; opacity: 0; }
+	0%, 66.66% {opacity: 0; }
+  74.96%, 91.62% {opacity: 1; }
+  100% { opacity: 0; }
 }
 
